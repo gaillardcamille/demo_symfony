@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h1>Bonjour et bonsoir 
+{% if nom is defined %}
+{{nom}}
+{% endif %}
+{% if prenom is defined %}
+{{prenom}}
+{% endif %}
+</h1>
+{% endblock %}
